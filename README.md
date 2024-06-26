@@ -5,6 +5,7 @@
 ## Facultada de Matematicas
 
 ## Posgrado en DataScience & Machine Learning
+## Curso de Introducción a la Ciencia de Datos y Inteligencia Artificial
 
 # Grupo conformado por:
 
