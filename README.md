@@ -31,18 +31,18 @@
 
 # 1. Introduccion
 
-# Objetivo del proyecto
+**Objetivo del proyecto**
 
 > A. Colocar en practica todo el conocimiento y herrmientas adquieras durante el post-grado.
 > B. Prever la disponibilidad de bicicletas aparcadas en varias estaciones de bicicletas compartidas de Barcelona.
 
-# Alcance del proyecto
+**Alcance del proyecto**
 
 > A. Desarrollar algunos Modelos Predictivos capaces de predecir con exactitud la disponibilidad de aparcamientos en distintos momentos y lugares de Barcelona. Para contestar a la pregunta del problema. (1 Parte del proyecto)
 
 > B. Con base en en los analisis de las bases de datos entregadas de la primera parte del proyecto, se debera utilizar algunos modelos de informacion, tales como (COVID - 19, Bicicletas a Pedal y Motor, Disponibilidad de Bicicletas, condiciones meteorologicas, dias festivos, fines de semana, desastres naturales y otras caracteristicas que a los estudiantes les parezcan relevantes.
 
-# Tecnologias y herramientas utilizadas
+**Tecnologias y herramientas utilizadas**
 
 > Se utilizaron las siguientes bases de datos:
   - opendata-ajuntament.barcelona
@@ -66,13 +66,13 @@
 
 # 2. Descripcion del Proyecto
 
-# Descripción general: Una visión general de lo que hace tu proyecto.
+**Descripción general**: Una visión general de lo que hace tu proyecto.
 
-# Funcionalidades principales: Lista de las funcionalidades más importantes.
+**Funcionalidades principales**: Lista de las funcionalidades más importantes.
 
 # 3. Estructura del Proyecto
 
-# Descripción de la estructura de carpetas y archivos
+**Descripción de la estructura de carpetas y archivos**
 
 > En este repositorio encontraran el cuatro (4) Collab de Google Drive, en los cuales se encuentran la siguiente informacion :
 
