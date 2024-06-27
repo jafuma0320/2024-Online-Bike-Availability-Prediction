@@ -92,22 +92,22 @@
 
 # 5.Conclusiones
 
-# 1. Resumen de los codigos utilizados para el analisis
+**1. Resumen de los codigos utilizados para el analisis**
 
 
 
 
-# 2. Analisis de como el COVID-19 afecto 
+**2. Analisis de como el COVID-19 afecto** 
 
 
 
 
-# 3. Analisis de las Bicicletas a Motor y a Pedal
+**3. Analisis de las Bicicletas a Motor y a Pedal**
 
 
 
 
 
-# 4. Analisis de disponibilidad de bicicletas
+**4. Analisis de disponibilidad de bicicletas**
 
 
