@@ -37,4 +37,25 @@
 # En el siguiente Collab se intento correr el codigo con Dash pero fue imposible, por problema de memoria del computador.
 # Este Collab se conservo solo para informacion general, no hay que tenerlo en cuenta para para el desarrollo del problema.
 
+
+### Analisis generales
+
+## 0 Analisis General del codigo
+
+
+
+
+## 1 Analisis del Covid 2020
+
+
+
+
+## 2 Analisis de Bicicletas a Motor y a Pedal
+
+
+
+
+
+## 3. Analisis de disponibilidad de bicicletas
+
 * Bici_kaggle_Dask_5_dates.ipynb
