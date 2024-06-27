@@ -9,10 +9,10 @@
 
 # Grupo conformado por:
 
-1. Inge,
-2. Javier,
-3. Beatriz,
-4. Evelyn,
+1. Inge Ruiz de Azuaibarra,
+2. Javier Fuentes Manrique,
+3. Beatriz Almajano,
+4. Evelyn Carmona Garcia,
 
 # Titulo del caso : 2024-Bike-Availability-Prediction
 
