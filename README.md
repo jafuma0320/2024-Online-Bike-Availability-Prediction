@@ -14,7 +14,7 @@
 3. Beatriz Almajano,
 4. Evelyn Carmona Garcia,
 
-# Titulo del caso : 2024-Bike-Availability-Prediction
+# Nombre del Proyecto: 2024-Bike-Availability-Prediction
 
 # Descripcion del caso a solucionar
 
