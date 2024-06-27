@@ -7,7 +7,7 @@
 ## Posgrado en DataScience & Machine Learning
 ## Curso de Introducción a la Ciencia de Datos y Inteligencia Artificial
 
-# Integrantes del proyecto:
+> Integrantes del proyecto:
 
 1. Inge Ruiz de Azuaibarra,
 2. Javier Fuentes Manrique,
