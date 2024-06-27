@@ -27,9 +27,9 @@
 
 > El reto se evaluo en función de la exactitud de las predicciones resultantes. **Los modelos con mejores resultados serán premiados con un reconocimiento en la clasificación de Kaggle.**
 
-### Tabla de contenido
+# Tabla de contenido
 
-## 1. Introduccion
+# 1. Introduccion
 
 # Objetivo del proyecto
 
@@ -64,13 +64,13 @@
   - Sklearn
   - Folium
 
-## 2. Descripcion del Proyecto
+# 2. Descripcion del Proyecto
 
 # Descripción general: Una visión general de lo que hace tu proyecto.
 
 # Funcionalidades principales: Lista de las funcionalidades más importantes.
 
-## 3. Estructura del Proyecto
+# 3. Estructura del Proyecto
 
 # Descripción de la estructura de carpetas y archivos
 
@@ -81,7 +81,7 @@
 * Bike_kaggle_3_pre-processing_data.ipynb
 * Bike_kaggel_4_pre-processing_data.ipynb
 
-## Pruebas
+# Pruebas
 
 # Resultados de las pruebas
 
@@ -90,7 +90,7 @@
 
 * Bici_kaggle_Dask_5_dates.ipynb
 
-## Conclusiones
+# Conclusiones
 
 # 1. Resumen de los codigos utilizados para el analisis
 
