@@ -81,7 +81,7 @@
 * Bike_kaggle_3_pre-processing_data.ipynb
 * Bike_kaggel_4_pre-processing_data.ipynb
 
-# Pruebas
+# 4.Pruebas
 
 # Resultados de las pruebas
 
@@ -90,7 +90,7 @@
 
 * Bici_kaggle_Dask_5_dates.ipynb
 
-# Conclusiones
+# 5.Conclusiones
 
 # 1. Resumen de los codigos utilizados para el analisis
 
