@@ -121,7 +121,7 @@
 
 > 2. Analisis del ano 2023
 
-![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/1.%20Mapa_identificando_todos_Station_id.png)
+![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/2.%20Filtrado_2023.png)
 
 > 4. Analisis de los dias entre Semana (Lunes a viernes) y NO Festivos, entre 08h00 & 10h00.
 > 5. Analisis de los Fines de Semana o Festivos, sin muelles disponibles, entre las 08h00 & 10h00 A.M.
