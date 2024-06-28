@@ -1,8 +1,5 @@
 # Universidad de Barcelona
 
-![Logo][https://drive.google.com/file/d/1-UyDKiRlMrBPMVVRsww8yLsrRuKWsMLk/view?usp=sharing](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/edit/main/README.md)
-
-
 ## Departamento de Matematicas y Informatica
 
 ## Facultada de Matematicas
