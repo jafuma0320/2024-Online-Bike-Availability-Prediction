@@ -86,7 +86,7 @@
 * Bike_kaggle_3_pre-processing_data.ipynb
 * Bike_kaggel_4_pre-processing_data.ipynb
 
-# 4.Pruebas
+# 4. Pruebas
 
 # Resultados de las pruebas
 
@@ -108,6 +108,8 @@
 
 
 **3. Analisis de las Bicicletas a Motor y a Pedal**
+
+> 
 
 
 
