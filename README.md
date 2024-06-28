@@ -175,4 +175,6 @@
 > Las estaciones con más saturación tienen círculos más grandes, es decir, aquellas que tienen más bicicletas según capacidad y por tanto menos muelles disponibles.
 > Claramente se ven las estaciones del Area del Centro y el Area de la Playa, son las más saturadas, en comparacion con el resto de estaciones.
 
+> Mariona y Pere, el mapa interactivo se encuentra en el Collab (Bike_kaggel_4_pre-processing_data.ipynb), si hacen click en alguna estación del mapa podran obtener/observar/analizar la información sobre esa estación como el Station_id o la proporción de bicicletas disponibles.
+
 
