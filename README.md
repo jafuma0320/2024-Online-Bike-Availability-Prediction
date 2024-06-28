@@ -46,7 +46,7 @@
 > A. Desarrollar algunos Modelos Predictivos capaces de predecir con exactitud la disponibilidad de aparcamientos en distintos momentos y lugares de Barcelona. Para contestar a la pregunta del problema. (1 Parte del proyecto)
 > https://www.kaggle.com/competitions/2024-online-bike-availability-prediction/submissions
 
-> B. Con base en en los analisis de las bases de datos entregadas de la primera parte del proyecto, se debera utilizar algunos modelos de informacion, tales como (COVID - 19, Bicicletas a Pedal y Motor, Disponibilidad de Bicicletas, condiciones meteorologicas, dias festivos, fines de semana, desastres naturales y otras caracteristicas que a los estudiantes les parezcan relevantes.
+> B. Con base en en los analisis de las bases de datos entregadas de la primera parte del proyecto, se debera utilizar algunos modelos de informacion, tales como (COVID - 19, Bicicletas a Pedal y Motor, Saturacion de Bicicletas, condiciones meteorologicas, dias festivos, fines de semana, desastres naturales y otras caracteristicas que a los estudiantes les parezcan relevantes.
 
 **Tecnologias y herramientas utilizadas**
 
