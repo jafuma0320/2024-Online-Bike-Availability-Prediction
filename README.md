@@ -1,4 +1,5 @@
 # Universidad de Barcelona
+![Logo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Imagen%20Universidad.png)
 
 ## Departamento de Matematicas y Informatica
 
