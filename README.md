@@ -6,7 +6,7 @@
 ## Facultada de Matematicas
 
 ## Posgrado en DataScience & Machine Learning
-## Curso de Introducción a la Ciencia de Datos y Inteligencia Artificial
+![Logo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Imagen%20Post-grado.png)
 
 > Integrantes del proyecto:
 
@@ -16,6 +16,7 @@
 4. Evelyn Carmona Garcia,
 
 # Nombre del Proyecto: 2024-Bike-Availability-Prediction
+![Logo]
 
 # Descripcion del caso a solucionar
 
