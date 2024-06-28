@@ -122,7 +122,9 @@
 
 
 **4. Analisis de Saturacion de bicicleta**
+
 *Segun el Station_id, Latitud, Longitud & Codigo Postal*
+
 *Dias entre semana (Lunes a Viernes), No Festivos, Fines de semana, Dias Festivos*
 
 > 1. Grafico con los Station_id & Codigo_Postal
