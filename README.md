@@ -137,7 +137,7 @@
 
 > 3. Analisis de los dias entre Semana (Lunes a viernes) y NO Festivos, sin muelles disponibles, entre 08h00 & 10h00.
 
-![Mapa]()
+![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/4.%20Analisis%20de%20los%20dias%20entre%20Semana%20(Lunes%20a%20viernes)%20y%20NO%20Festivos%2C%20entre%2008h00%20%26%2010h00.png)
 
 > 4. Analisis de los Fines de Semana o Festivos, sin muelles disponibles, entre las 08h00 & 10h00 A.M.
 
