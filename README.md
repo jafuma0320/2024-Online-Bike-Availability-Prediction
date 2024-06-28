@@ -7,6 +7,7 @@
 
 ## Posgrado en DataScience & Machine Learning
 ![Logo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Imagen%20Post-grado.png)
+>https://datascience.ub.edu/course/postgraduate-dsml
 
 > Integrantes del proyecto:
 
