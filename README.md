@@ -82,6 +82,9 @@
 
 > En este repositorio encontraran el cuatro (4) Collab de Google Drive, en los cuales se encuentran la siguiente informacion :
 
+* Jupyter Notebook (Inge - Codigo de Dash y los modelos predictivos)
+* Jupyter Notebook (Evelyn - Codigo de Dash y el analisis del COVID)
+* Jupyter Notebook (Beatriz - Codigo de Dash y el analisis de las bicicletas de Pedal y Motor)
 * Bike_kaggel_1_Availability_Prediction.ipynb
 * Bike_kaggel_2_pre-processing_data.ipynb
 * Bike_kaggle_3_pre-processing_data.ipynb
@@ -90,6 +93,12 @@
 # 4. Pruebas
 
 **Resultados de las pruebas**
+
+> Anexar las bitacoras o diarios de Inge
+
+> Anexar las bitacoras o diarios de Evelyn
+
+> Anexar las bitacoras o diarios de Beatriz
 
 > En el siguiente Collab se intento correr el codigo con Dash pero fue imposible, por problema de memoria del computador.
 > Este Collab se conservo solo para informacion general, no hay que tenerlo en cuenta para para el desarrollo del problema.
