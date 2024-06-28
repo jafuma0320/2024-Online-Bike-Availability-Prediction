@@ -109,12 +109,17 @@
 
 **3. Analisis de las Bicicletas a Motor y a Pedal**
 
-> 
 
 
+**4. Analisis de Saturacion de bicicleta**
+*Segun el Station_id, Latitud, Longitud & Codigo Postal*
+*Dias entre semana (Lunes a Viernes), No Festivos, Fines de semana, Dias Festivos*
 
-
-
-**4. Analisis de disponibilidad de bicicletas**
-
-
+> 1. Grafico con los Station_id & Codigo_Postal
+> 2. Analisis del ano 2023
+> 3. Analisis de los dias entre Semana (Lunes a viernes) y NO Festivos, entre 08h00 & 10h00.
+> 4. Analisis de los Fines de Semana o Festivos, sin muelles disponibles, entre las 08h00 & 10h00 A.M.
+> 5. Analisis de los dias Festivos & Fines de Semana, sin muelles disponibles, entre las 12h00 & 18h00 P.M.
+> 6. Analisis de los dias Festivos & Fines de Semana, sin muelles disponibles, entre las 19h00 & 23h00 P.M
+> 7. Analisis sobre el llenado/vaciado de bicicletas, en ciertas estaciones. Los Festivos o Fin de Semana, entre 12h00 & 23h00
+> 8. Analisis mapa con información del porcentaje de muelles disponibles de los Festivos o Fin de Semana, entre 12h00 & 23h00
