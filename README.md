@@ -19,7 +19,7 @@
 # Nombre del Proyecto: 2024-Bike-Availability-Prediction
 ![Logo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Imagen%20Bicicletas.png)
 
-# Descripcion del caso a solucionar
+# Descripcion del problema  a solucionar
 
 > Los participantes se enfrentaron al reto de desarrollar modelos predictivos para prever la disponibilidad de bicicletas aparcadas en varias estaciones de bicicletas compartidas de Barcelona.
 > Las bicicletas compartidas son un medio de transporte muy popular en muchas zonas urbanas, y una predicción precisa de su disponibilidad puede ayudar a los usuarios a planificar sus desplazamientos y minimizar los tiempos de espera.
