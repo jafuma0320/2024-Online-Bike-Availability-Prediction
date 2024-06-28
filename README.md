@@ -38,6 +38,7 @@
 **Objetivo del proyecto**
 
 > A. Colocar en practica todo el conocimiento y herrmientas adquieras durante el post-grado.
+
 > B. Prever la disponibilidad de bicicletas aparcadas en varias estaciones de bicicletas compartidas de Barcelona.
 
 **Alcance del proyecto**
