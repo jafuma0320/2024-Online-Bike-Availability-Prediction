@@ -116,10 +116,17 @@
 *Dias entre semana (Lunes a Viernes), No Festivos, Fines de semana, Dias Festivos*
 
 > 1. Grafico con los Station_id & Codigo_Postal
+![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/1.%20Mapa_identificando_todos_Station_id.png)
+
 > 2. Analisis del ano 2023
-> 3. Analisis de los dias entre Semana (Lunes a viernes) y NO Festivos, entre 08h00 & 10h00.
-> 4. Analisis de los Fines de Semana o Festivos, sin muelles disponibles, entre las 08h00 & 10h00 A.M.
-> 5. Analisis de los dias Festivos & Fines de Semana, sin muelles disponibles, entre las 12h00 & 18h00 P.M.
-> 6. Analisis de los dias Festivos & Fines de Semana, sin muelles disponibles, entre las 19h00 & 23h00 P.M
-> 7. Analisis sobre el llenado/vaciado de bicicletas, en ciertas estaciones. Los Festivos o Fin de Semana, entre 12h00 & 23h00
-> 8. Analisis mapa con información del porcentaje de muelles disponibles de los Festivos o Fin de Semana, entre 12h00 & 23h00
+
+> 4. Analisis de los dias entre Semana (Lunes a viernes) y NO Festivos, entre 08h00 & 10h00.
+> 5. Analisis de los Fines de Semana o Festivos, sin muelles disponibles, entre las 08h00 & 10h00 A.M.
+> 6. Analisis de los dias Festivos & Fines de Semana, sin muelles disponibles, entre las 12h00 & 18h00 P.M.
+> 7. Analisis de los dias Festivos & Fines de Semana, sin muelles disponibles, entre las 19h00 & 23h00 P.M
+> 8. Analisis sobre el llenado/vaciado de bicicletas, en ciertas estaciones. Los Festivos o Fin de Semana, entre 12h00 & 23h00
+> 9. Analisis mapa con información del porcentaje de muelles disponibles de los Festivos o Fin de Semana, entre 12h00 & 23h00
+> 10. Analisis y generacion del mapa con el tamano de los circulos en funcion del Inverso del Percentage_docks_available
+
+
+
