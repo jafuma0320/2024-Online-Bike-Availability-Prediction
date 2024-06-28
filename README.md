@@ -88,7 +88,7 @@
 
 # 4. Pruebas
 
-# Resultados de las pruebas
+**Resultados de las pruebas**
 
 > En el siguiente Collab se intento correr el codigo con Dash pero fue imposible, por problema de memoria del computador.
 > Este Collab se conservo solo para informacion general, no hay que tenerlo en cuenta para para el desarrollo del problema.
