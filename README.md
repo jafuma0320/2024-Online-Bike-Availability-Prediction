@@ -29,6 +29,7 @@
 > Se animo a los participantes a utilizar en sus modelos información sobre las condiciones meteorológicas y otras características relevantes.
 
 > El reto se evaluo en función de la exactitud de las predicciones resultantes. **Los modelos con mejores resultados serán premiados con un reconocimiento en la clasificación de Kaggle.**
+> https://www.kaggle.com/competitions/2024-online-bike-availability-prediction/overview
 
 # Tabla de contenido
 
