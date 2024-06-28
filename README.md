@@ -16,7 +16,7 @@
 4. Evelyn Carmona Garcia,
 
 # Nombre del Proyecto: 2024-Bike-Availability-Prediction
-![Logo]
+![Logo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Imagen%20Bicicletas.png)
 
 # Descripcion del caso a solucionar
 
