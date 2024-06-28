@@ -129,15 +129,29 @@
 
 ![Mapa]()
 
-> 6. Analisis de los Fines de Semana o Festivos, sin muelles disponibles, entre las 08h00 & 10h00 A.M.
+> 4. Analisis de los Fines de Semana o Festivos, sin muelles disponibles, entre las 08h00 & 10h00 A.M.
 
 ![Mapa]()
 
-> 8. Analisis de los dias Festivos & Fines de Semana, sin muelles disponibles, entre las 12h00 & 18h00 P.M.
-> 9. Analisis de los dias Festivos & Fines de Semana, sin muelles disponibles, entre las 19h00 & 23h00 P.M
-> 10. Analisis sobre el llenado/vaciado de bicicletas, en ciertas estaciones. Los Festivos o Fin de Semana, entre 12h00 & 23h00
-> 11. Analisis mapa con información del porcentaje de muelles disponibles de los Festivos o Fin de Semana, entre 12h00 & 23h00
-> 12. Analisis y generacion del mapa con el tamano de los circulos en funcion del Inverso del Percentage_docks_available
+> 5. Analisis de los dias Festivos & Fines de Semana, sin muelles disponibles, entre las 12h00 & 18h00 P.M.
+
+![Mapa]()
+
+> 6. Analisis de los dias Festivos & Fines de Semana, sin muelles disponibles, entre las 19h00 & 23h00 P.M
+
+![Mapa]()
+
+> 7. Analisis sobre el llenado/vaciado de bicicletas, en ciertas estaciones. Los Festivos o Fin de Semana, entre 12h00 & 23h00
+
+![Mapa]()
+
+> 8. Analisis mapa con información del porcentaje de muelles disponibles de los Festivos o Fin de Semana, entre 12h00 & 23h00
+
+![Mapa]()
+
+> 9. Analisis y generacion del mapa con el tamano de los circulos en funcion del Inverso del Percentage_docks_available
+
+![Mapa]()
 
 
 
