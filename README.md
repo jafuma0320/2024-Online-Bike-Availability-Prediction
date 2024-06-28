@@ -133,7 +133,7 @@
 
 ![Codigo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/2.%20Filtrado_2023.png)
 
-![Codigo]()
+![Codigo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/2.1.%20Filtrado_dias_EntreSemana_%26_NO_Festivos__and_dias_FindeSemana_%26_Festivos.png)
 
 > 3. Analisis de los dias entre Semana (Lunes a viernes) y NO Festivos, sin muelles disponibles, entre 08h00 & 10h00.
 
