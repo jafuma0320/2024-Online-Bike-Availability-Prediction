@@ -1,7 +1,5 @@
 # Universidad de Barcelona
 
-![Logo de la universidad] (https://drive.google.com/drive/folders/1snQg38_GIErGD8e5bTbDEqNVny2NbYLe)
-
 ## Departamento de Matematicas y Informatica
 
 ## Facultada de Matematicas
