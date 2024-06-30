@@ -74,7 +74,13 @@
 
 **Descripción general**: Una visión general de lo que hace tu proyecto.
 
-**Funcionalidades principales**: Lista de las funcionalidades más importantes.
+**Funcionalidades principales**
+> Los siguientes codigos fueron los mas importantes en la creacion del proyecto:
+- Dash (Falta agregar esta informacion)
+- Dash (Falta agregar esta informacion)
+- Dash (Falta agregar esta informacion)
+- Last_reported : esta columna nos toco convertirla a fecha con la funcion (from datetime import datetime - import pytz)
+-  grouped_series = df_simplified.groupby(['station_id', 'year', 'month', 'day', 'hour']).mean()
 
 # 3. Estructura del Proyecto
 
