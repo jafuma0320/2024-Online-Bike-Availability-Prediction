@@ -169,7 +169,8 @@
 
 > 7. Analisis sobre el llenado/vaciado de bicicletas, en ciertas estaciones. Los Festivos o Fin de Semana, entre 12h00 & 23h00
 
-![Mapa]()
+![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20Saturacion%20de%20bicicleta/7.%20Analisis%20sobre%20el%20llenado_vaciado%20de%20bicicletas%2C%20en%20ciertas%20estaciones.%20Los%20Festivos%20o%20Fin%20de%20Semana%2C%20entre%2012h00%20%26%2023h00.png)
+
 > En el mapa podemos localizar las 101 estaciones que se encuentran llenas en Festivos y Fines de semana entre las 12h00 y las 23h00,
 > Mostrando lugares desde donde más gente toma bicicletas para desplazarse en el Fin de Semana.
 > La recomendacion seria que en estas estaciones habria que llenar/surtir con las bicicletas obtenidas anteriormente de las estaciones llenas por el Area del Centro o el Area de la Playa.
