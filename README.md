@@ -142,11 +142,10 @@ Y las representamos en el mapa para ver si se concentran en una misma zona
 
 ![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/6f3f2702b1b65c71812e78b054ee7947b03058e0/Analisis%20de%20las%20Bicicletas%20a%20electricas/Escasez%20bicis%20el%C3%A9ctricas%202023.png)
 
-(https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/6f3f2702b1b65c71812e78b054ee7947b03058e0/Analisis%20de%20las%20Bicicletas%20a%20electricas/Escasez%20bicis%20el%C3%A9ctricas%202023.png)
 
 *Una vez tenemos el top 50 de cada año, hacemos un nuevo contador que suma el número de veces que aparece cada estación. Para dar más peso al año 2023 lo ponderamos multiplicando por 3. Representamos el resultado en un mapa:
 
-![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/6f3f2702b1b65c71812e78b054ee7947b03058e0/Analisis%20de%20las%20Bicicletas%20a%20electricas/Captura%20de%20pantalla%202024-07-01%20220515.png)
+![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/abe71277547d4e2bd50c57f870441eca6c3add5b/Analisis%20de%20las%20Bicicletas%20a%20electricas/Captura%20de%20pantalla%202024-07-01%20220515.png))
 
 *Podemos comprobar que la gran mayoría están situadas por la zona de la costa (como se podía sospechar, ya que al ser Barcelona una ciudad con desnivel, se utilizan para subir las eléctricas y quedan las estaciones de menor desnivel desprovistas de estas). Sin embargo también hay algunas estaciones por la zona de Nou Barris, Les Corts i l'Eixample que también tienen insuficiencia.
 
