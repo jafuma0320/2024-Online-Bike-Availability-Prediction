@@ -97,7 +97,7 @@
 
 # 4.Conclusiones
 
-**1. Resumen de los códigos utilizados para el análisis**  (Inge)
+**1. Resumen de los códigos utilizados para el análisis** 
 Para la lectura de datos se ha usado la librería Dask. Dask es una librería de computación paralela y distribuida para Python. Principalmente se utiliza para manejar grandes conjuntos de datos. Permite realizar análisis y procesamiento de datos a gran escala.
 
 Para el desarrollo de este análisis, se ha trabajado con datasets que incluyen datos históricos de uso de bicicletas y su disponibilidad en la ciudad de Barcelona. En este análisis se han limitado los datos al periodo de 2020 al 2023.
