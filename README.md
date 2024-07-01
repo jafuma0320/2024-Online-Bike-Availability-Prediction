@@ -141,11 +141,12 @@
 
 ![Codigo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20Saturacion%20de%20bicicleta/2.%20Filtrado_2023.png)
 
-![Codigo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/2.1.%20Filtrado_dias_EntreSemana_%26_NO_Festivos__and_dias_FindeSemana_%26_Festivos.png)
+![Codigo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20Saturacion%20de%20bicicleta/2.1.%20Filtrado_dias_EntreSemana_%26_NO_Festivos__and_dias_FindeSemana_%26_Festivos.png)
 
 > 3. Analisis de los dias entre Semana (Lunes a viernes) y NO Festivos, sin muelles disponibles, entre 08h00 & 10h00.
 
-![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20Saturacion%20de%20bicicleta/2.1.%20Filtrado_dias_EntreSemana_%26_NO_Festivos__and_dias_FindeSemana_%26_Festivos.png)
+![Mapa]()
+
 > En el mapa podemos localizar las 45 estaciones que se encuentran llenas a primera hora de la mañana en dias laborables 08h00 & 10h00, seguramente coincidiendo con puntos de gran afluencia de empresas.
 
 > 4. Analisis de los Fines de Semana o Festivos, sin muelles disponibles, entre las 08h00 & 10h00 A.M.
