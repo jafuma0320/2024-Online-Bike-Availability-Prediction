@@ -75,15 +75,14 @@
 
 # 2. Descripcion del Proyecto
 
-**Descripción general**: 
+**Descripción general**
+> Se ha realizado la prediccion de la ocupacion de las diferentes estaciones, utilizando los modelos predictivos Linear_Regresion y Random_Forest
 
-**Funcionalidades principales**
-> Los siguientes codigos fueron los mas importantes en la creacion del proyecto:
-- Dash (Falta agregar esta informacion)
-- Dash (Falta agregar esta informacion)
-- Dash (Falta agregar esta informacion)
-- Last_reported : esta columna nos toco convertirla a fecha con la funcion (from datetime import datetime - import pytz)
--  grouped_series = df_simplified.groupby(['station_id', 'year', 'month', 'day', 'hour']).mean()
+> Analisis del ano 2020 Vs. los otros anos, donde se analizo el tema del COVID-19
+
+> Analisis de las estaciones en las que es necesario reforzar el numero de bicicletas electricas
+
+> Analisis de las estaciones que se encuentran sin muelles disponibles en diferentes horas.
 
 # 3. Estructura del Proyecto
 
@@ -91,30 +90,12 @@
 
 > En este repositorio encontraran el cuatro (4) Collab de Google Drive, en los cuales se encuentran la siguiente informacion :
 
-* Jupyter Notebook (Inge - Codigo de Dash y los modelos predictivos)
-* Jupyter Notebook (Evelyn - Codigo de Dash y el analisis del COVID)
-* Jupyter Notebook (Beatriz - Codigo de Dash y el analisis de las bicicletas de Motor)
-* Bike_kaggel_1_Availability_Prediction.ipynb
-* Bike_kaggel_2_pre-processing_data.ipynb
-* Bike_kaggle_3_pre-processing_data.ipynb
-* Bike_kaggel_4_pre-processing_data.ipynb
+* Carpeta predicion utilizando Dask (En este carpetoa se encuentra el codigo para la prediccion de docks_disponibles)
+* Carpeta Analisis de el COVID-19 afecto
+* Carpeta Analisis de las Bicicletas a electricas
+* Carpeta Analisis de Saturacion de bicicleta
 
-# 4. Pruebas
-
-**Resultados de las pruebas**
-
-> Anexar las bitacoras o diarios de Inge
-
-> Anexar las bitacoras o diarios de Evelyn
-
-> Anexar las bitacoras o diarios de Beatriz
-
-> En el siguiente Collab se intento correr el codigo con Dash pero fue imposible, por problema de memoria del computador.
-> Este Collab se conservo solo para informacion general, no hay que tenerlo en cuenta para para el desarrollo del problema.
-
-* Bici_kaggle_Dask_5_dates.ipynb
-
-# 5.Conclusiones
+# 4.Conclusiones
 
 **1. Resumen de los codigos utilizados para el analisis**  (Inge)
 
@@ -126,7 +107,7 @@
 
 
 
-**3. Analisis de las Bicicletas a Motor** 
+**3. Analisis de las Bicicletas electricas** 
 
 *En el siguiente análisis queremos detectar aquellas estaciones en las que falta bicicletas eléctricas. En la limpieza de datos hacemos los siguientes filtros:*
 
@@ -144,9 +125,6 @@
 *Y las representamos en el mapa para ver si se concentran en una misma zona*
 
 *Por otro lado, representamos el total de bicicletas eléctricas en cada año, para analizar cuál ha sido el comportamiento*
-
-
-
 
 
 **4. Analisis de Saturacion de bicicleta**
