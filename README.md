@@ -129,9 +129,12 @@ Tiendo en cuenta que los años dados incluyen el 2020 (año de la pandemia covid
 El contenido de estos gráficos los puedes ver en la carpeta llamada : Análisis de el COVID-19 afecto.
 
 A.	Media de bicicletas disponibles por día Antes, Durante, y Después del confinamiento el 2020'
+
 ![Logo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20el%20COVID-19%20afecto/01%20Media%20de%20disponibilidad%20de%20bicis%20por%20dia.jpg)
 
 B.	Media de bicicletas disponibles por mes Antes, Durante, y Después del confinamiento – 2020
+
+![Logo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20el%20COVID-19%20afecto/02%20Media%20de%20disponibilidad%20de%20bicis%20por%20mes.jpg)
 
 *Antes del Confinamiento (Enero - Medio de Marzo):*
 Observamos una tendencia general al alza en la disponibilidad de bicicletas desde principios de año hasta el comienzo del confinamiento en marzo. Esto podría indicar un aumento en la demanda de bicicletas públicas, posiblemente a que las personas les agrada movilizarse en bicicleta.
@@ -149,6 +152,8 @@ La recuperación gradual en la disponibilidad post-confinamiento sugiere que los
 La disponibilidad de bicicletas también parece estar influenciada por otros factores por ejemplo estacionales.
 
 C.	Disponibilidad media de bicicletas por mes y hora en 2020
+
+![Logo] (https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20el%20COVID-19%20afecto/03%20Disponibilidad%20Media%20de%20bicis%20por%20mes%20y%20horas.jpg)
 
 *Tendencias Generales por Mes:*
 Enero a Junio: La disponibilidad de bicicletas es relativamente alta, especialmente durante los meses de abril y mayo, donde se observa una media superior a 12 bicicletas disponibles en casi todas las horas del día.
@@ -173,6 +178,8 @@ Patrones Horarios: Las bicicletas son menos disponibles durante las horas pico d
 
 D.	Disponibilidad de bicicletas por meses para los años 2020 y 2021
 
+![Logo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20el%20COVID-19%20afecto/04%20Disponibilidad%20Media%20de%20bicis%20por%20mes%202020%20y%202021.jpg)
+
 *Comparación General entre 2020 y 2021:*
 En la mayoría de los meses, la disponibilidad de bicicletas en 2021 es inferior a la de 2020. Esto sugiere que hubo un mayor uso de bicicletas en 2021, lo cual podría estar relacionado con la relajación de las restricciones y el aumento de la movilidad.
 
@@ -181,7 +188,9 @@ Marzo a Junio 2020: La disponibilidad de bicicletas en estos meses es notablemen
 
 Marzo a Junio 2021: En 2021, la disponibilidad durante estos meses es menor, lo que indica un mayor uso de bicicletas en comparación con el mismo periodo en 2020. Esto sugiere que las personas empezaron a retomar sus actividades normales y utilizar más las bicicletas.
 
-5.	Disponibilidad media de bicicletas por meses para los años 2020 – 2023
+E.	Disponibilidad media de bicicletas por meses para los años 2020 – 2023
+
+![Logo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20el%20COVID-19%20afecto/05%20Disponibilidad%20Media%20de%20bicis%20por%20mes%202020%20al%202023.jpg)
 
 *Tendencia general:*
 A lo largo de los años, la disponibilidad de bicicletas sigue un patrón estacional. Hay un aumento en la disponibilidad durante los meses más cálidos y una disminución durante los meses más fríos.
