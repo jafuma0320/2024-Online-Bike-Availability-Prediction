@@ -127,9 +127,13 @@
 
 
 **3. Analisis de las Bicicletas a Motor** 
+
 *En el siguiente análisis queremos detectar aquellas estaciones en las que falta bicicletas eléctricas. En la limpieza de datos hacemos los siguientes filtros:*
+
 *1) Eliminar las estaciones 529 y 530 ya que los datos no parecen correctos porque el dock disponible es 99.*
+
 *2) Nos quedamos con aquellas estaciones cuyo estatus es IN_SERVICE (descartando el resto)*
+
 *3) Descartamos las columnas que no son necesarias para el análisis*
 
 *Hacemos el merge con el archivo 'Informacio_Estacions_Bicing.csv' para disponer de la latitud y la longitud*
