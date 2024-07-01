@@ -102,7 +102,8 @@
 
 
 
-**2. Análisis de como el COVID-19 afecto** (Evelyn)
+**2. Análisis de como el COVID-19 afecto** 
+
 Tiendo en cuenta que los años dados incluyen el 2020 (año de la pandemia covid),  el objetivo del análisis es comparar la disponibilidad de bicicletas durante ese año y el resto de años 2021 – 2023.
 
 *Preparación de los datos* 
