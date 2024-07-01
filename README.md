@@ -131,7 +131,7 @@ Y las representamos en el mapa para ver si se concentran en una misma zona
 
 *AÑO 2021*
 
-(https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/6f3f2702b1b65c71812e78b054ee7947b03058e0/Analisis%20de%20las%20Bicicletas%20a%20electricas/Escasez%20bicis%20el%C3%A9ctricas%202021.png)
+![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/6f3f2702b1b65c71812e78b054ee7947b03058e0/Analisis%20de%20las%20Bicicletas%20a%20electricas/Escasez%20bicis%20el%C3%A9ctricas%202021.png)
 
 *AÑO 2022*
 
