@@ -109,10 +109,10 @@
 
 **3. Análisis de las Bicicletas eléctricas** 
 
-*En el siguiente análisis queremos detectar aquellas estaciones en las que hay escasez de bicicletas eléctricas. Descartamos el año 2020, porque ya hemos visto que al ser año Covid los datos son diferentes. 
+En el siguiente análisis queremos detectar aquellas estaciones en las que hay escasez de bicicletas eléctricas. Descartamos el año 2020, porque ya hemos visto que al ser año Covid los datos son diferentes. 
 
-*Antes de empezar a trabajar, hacemos un análisis de los datos para entender mejor que valor aporta cada una de las columnas.
-*El principal problema que nos hemos encontrado es la capacidad de memoria para procesar la gran cantidad de datos. Por ello, hemos tenido que analizar cada año por separaddo.
+Antes de empezar a trabajar, hacemos un análisis de los datos para entender mejor que valor aporta cada una de las columnas.
+El principal problema que nos hemos encontrado es la capacidad de memoria para procesar la gran cantidad de datos. Por ello, hemos tenido que analizar cada año por separaddo.
 
 *En la limpieza de datos hacemos los siguientes filtros:
 
