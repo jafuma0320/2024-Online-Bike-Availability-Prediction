@@ -109,7 +109,7 @@
 
 **3. Análisis de las Bicicletas eléctricas** 
 
-*En el siguiente análisis queremos detectar aquellas estaciones en las que falta bicicletas eléctricas. En la limpieza de datos hacemos los siguientes filtros:*
+*En el siguiente análisis queremos detectar aquellas estaciones en las que falta bicicletas eléctricas. Descartamos el año 2020, porque ya hemos visto que al ser año Covid los datos son diferentes. En la limpieza de datos hacemos los siguientes filtros:*
 
 *1) Eliminar las estaciones 529 y 530 ya que los datos no parecen correctos porque el dock disponible es 99.*
 
@@ -121,11 +121,24 @@
 
 *Con un contador, calculamos aquellas estaciones que tienen durante 5 horas seguidas 0 disponibilidad de bicicletas eléctricas*
 
-*Nos quedamos con el top 50 (por falta de memoria en el ordenador, no tiene capacidad para trabajar con más*
+*Nos quedamos con el top 50 (por falta de memoria en el ordenador, no tiene capacidad para trabajar con más)*
 *Y las representamos en el mapa para ver si se concentran en una misma zona*
 
-*Por otro lado, representamos el total de bicicletas eléctricas en cada año, para analizar cuál ha sido el comportamiento*
+*AÑO 2021*
+https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/6f3f2702b1b65c71812e78b054ee7947b03058e0/Analisis%20de%20las%20Bicicletas%20a%20electricas/Escasez%20bicis%20el%C3%A9ctricas%202021.png
 
+*AÑO 2022*
+https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/6f3f2702b1b65c71812e78b054ee7947b03058e0/Analisis%20de%20las%20Bicicletas%20a%20electricas/Escasez%20bicis%20el%C3%A9ctricas%202022.png
+
+*AÑO 2023*
+https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/6f3f2702b1b65c71812e78b054ee7947b03058e0/Analisis%20de%20las%20Bicicletas%20a%20electricas/Escasez%20bicis%20el%C3%A9ctricas%202023.png
+
+*Una vez tenemos el top 50 de cada año, hacemos un nuevo contador que suma el número de veces que aparece cada estación. Para dar más peso al año 2023 lo ponderamos multiplicando por 3. Representamos el resultado en un mapa*
+
+https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/e667855efd55547d356b6bb03030d2a298c48e99/Analisis%20de%20las%20Bicicletas%20a%20electricas/Captura%20de%20pantalla%202024-07-01%20220515.png
+
+*Podemos comprobar que la gran mayoría están situadas por la zona de la costa (como se podía sospechar, ya que al ser Barcelona una ciudad con desnivel, se utilizan para* *subir las eléctricas y quedan las estaciones de menor desnivel desprovistas de bicicletas eléctricas). Sin embargo también hay algunas estaciones por la zona de*
+*Nou Barris, Les Corts i l'Eixample*
 
 **4. Análisis de Saturación de bicicleta**
 
