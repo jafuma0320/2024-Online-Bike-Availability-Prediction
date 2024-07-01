@@ -37,7 +37,7 @@
 
 **Objetivo del proyecto**
 
-> A. Colocar en practica todo el conocimiento y herrmientas adquieras durante el post-grado.
+> A. Colocar en práctica todo el conocimiento y herramientas adquiridas durante el post-grado.
 
 > B. Prever la disponibilidad de bicicletas aparcadas en varias estaciones de bicicletas compartidas de Barcelona.
 
@@ -69,10 +69,13 @@
   - Numpy
   - Sklearn
   - Folium
+  - Matplotlib
+  - Seaborn
+  - Plotly
 
 # 2. Descripcion del Proyecto
 
-**Descripción general**: Una visión general de lo que hace tu proyecto.
+**Descripción general**: 
 
 **Funcionalidades principales**
 > Los siguientes codigos fueron los mas importantes en la creacion del proyecto:
@@ -90,7 +93,7 @@
 
 * Jupyter Notebook (Inge - Codigo de Dash y los modelos predictivos)
 * Jupyter Notebook (Evelyn - Codigo de Dash y el analisis del COVID)
-* Jupyter Notebook (Beatriz - Codigo de Dash y el analisis de las bicicletas de Pedal y Motor)
+* Jupyter Notebook (Beatriz - Codigo de Dash y el analisis de las bicicletas de Motor)
 * Bike_kaggel_1_Availability_Prediction.ipynb
 * Bike_kaggel_2_pre-processing_data.ipynb
 * Bike_kaggle_3_pre-processing_data.ipynb
@@ -123,7 +126,22 @@
 
 
 
-**3. Analisis de las Bicicletas a Motor y a Pedal** (Beatriz)
+**3. Analisis de las Bicicletas a Motor** 
+*En el siguiente análisis queremos detectar aquellas estaciones en las que falta bicicletas eléctricas. En la limpieza de datos hacemos los siguientes filtros:
+1) Eliminar las estaciones 529 y 530 ya que los datos no parecen correctos porque el dock disponible es 99.
+2) Nos quedamos con aquellas estaciones cuyo estatus es IN_SERVICE (descartando el resto)
+3) Descartamos las columnas que no son necesarias para el análisis*
+
+*Hacemos el merge con el archivo 'Informacio_Estacions_Bicing.csv' para disponer de la latitud y la longitud*
+
+*Con un contador, calculamos aquellas estaciones que tienen durante 5 horas seguidas 0 disponibilidad de bicicletas eléctricas*
+
+*Nos quedamos con el top 50 (por falta de memmoria en el ordenador, no tiene capacidad para trabajar con más*
+*Y las representamos en el mapa para ver si se concentran en una misma zona*
+
+*Por otro lado, representamos el total de bicicletas eléctricas en cada año, para analizar cuál ha sido el comportamiento*
+
+
 
 
 
