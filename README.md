@@ -181,7 +181,8 @@
 
 > 9. Analisis y generacion del mapa con el tamano de los circulos en funcion del Inverso del Percentage_docks_available
 
-![Mapa]()
+![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20Saturacion%20de%20bicicleta/9.%20Analisis%20y%20generacion%20del%20mapa%20con%20el%20tamano%20de%20los%20circulos%20en%20funcion%20del%20Inverso%20del%20Percentage_docks_available.png)
+
 > Este último mapa muestra las estaciones según el nivel de saturación durante el día entre 12h00 & 23h00 de días festivos y fines de semanas.
 > Las estaciones con más saturación tienen círculos más grandes, es decir, aquellas que tienen más bicicletas según capacidad y por tanto menos muelles disponibles.
 > Claramente se ven las estaciones del Area del Centro y el Area de la Playa, son las más saturadas, en comparacion con el resto de estaciones.
