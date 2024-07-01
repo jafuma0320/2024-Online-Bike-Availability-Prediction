@@ -98,9 +98,21 @@
 # 4.Conclusiones
 
 **1. Resumen de los códigos utilizados para el análisis**  (Inge)
+Para la lectura de datos se ha usado la librería Dask. Dask es una librería de computación paralela y distribuida para Python. Principalmente se utiliza para manejar grandes conjuntos de datos. Permite realizar análisis y procesamiento de datos a gran escala.
 
+Para el desarrollo de este análisis, se ha trabajado con datasets que incluyen datos históricos de uso de bicicletas y su disponibilidad en la ciudad de Barcelona. En este análisis se han limitado los datos al periodo de 2020 al 2023.
 
+En este rango nos hemos encontrado con una gran cantidad de datos a analizar. Al principio, empezamos intentando usar Pandas, pero nos fallaba constantemente ya que nuestros ordenadores no soportaban, y fallaba la memoria constantemente. Es por ello que cambiamos a usar Dask, ya que nos facilitó hacer una lectura de datos de una forma mucho más rápida y sencilla. En nuestro caso, trabajamos leyendo los datos año por año y fuimos eliminando los datos que consideramos innecesarios como valores nulos, datos de otros años o columnas. Una vez hecha la limpieza, ya teníamos un dataframe con el que podíamos sacar la medía de la cantidad de docks disponibles por estación, año, mes, día y hora.
 
+Con ese nuevo dataframe, y con el dataset que nos proporcionaron en la que se concretaba la cantidad de docks que había por cada estación, fuimos capaces de sacar el porcentaje de docks disponibles. Para así después hacer la agrupación por cada cinco horas, consiguiendo así el dataframe que vamos a usar en la predicción. Generar esta tabla es verdad que nos costo bastante ya que la función que hicimos no era precisamente rápida. Es por ello que guardamos el resultado en un csv para no tener que estar generándolo constantemente.
+
+Con el dataframe con el que trabajar preparado, usando la librería train_test_split, dividimos el conjunto de datos en dos, el conjunto de entrenamiento un 80% y para el conjunto de validación el 20%. Para el test usamos los datos de que nos proporcionan del porcentaje de bicicletas disponibles para el año 2024. 
+
+Una vez que tenemos todo dividido como queremos hemos entrenado el modelo. Hemos probado con dos distintos:
+- Regresión lineal
+- Random forest
+
+La idea de ejecutar los dos era ver si conseguíamos alguna mejora en los resultados. Pero en nuestro caso no ha sido así. Con los dos modelos entrenados no hemos visto mucha diferencia entre usar uno u otro, en nuestros resultados el random forest ha sido ligeramente mejor. Tanto con el modelo de regresión lineal o con el random forest, el Mean Squared Error (MSE) es bastante parecido (regresión lineal igual a 0.01169 y en random forest igual a 0.01082). El valor es bastante bajo, por lo que indica que las predicciones del modelo están muy cerca de los valores reales. Lo mismo sucede con el coeficiente de determinación, en los dos casos el valor se acerca bastante al uno (regresión lineal igual a 0.84751 y en random forest igual a 0.85890), indicando que las predicciones se parecen bastante a los valores reales.
 
 **2. Análisis de como el COVID-19 afecto** (Evelyn)
 
@@ -145,44 +157,39 @@
 
 > 3. Análisis de los días entre Semana (Lunes a viernes) y NO Festivos, sin muelles disponibles, entre 08h00 & 10h00.
 
-![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20Saturacion%20de%20bicicleta/3.%20Analisis%20de%20los%20dias%20entre%20Semana(Lunes%20a%20viernes)%20y%20NO%20Festivos%2C%20sin%20muelles%20disponibles%2C%20entre%2008h00%20%26%2010h00.png)
+![Mapa]()
 
 > En el mapa podemos localizar las 45 estaciones que se encuentran llenas a primera hora de la mañana en días laborables 08h00 & 10h00, seguramente coincidiendo con puntos de gran afluencia de empresas.
 
 > 4. Análisis de los Fines de Semana o Festivos, sin muelles disponibles, entre las 08h00 & 10h00 A.M.
 
-![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20Saturacion%20de%20bicicleta/4.%20Analisis%20de%20los%20Fines%20de%20Semana%20o%20Festivos%2C%20sin%20muelles%20disponibles%2C%20entre%20las%2008h00%20%26%2010h00%20A.M.png)
-
+![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/4.%20Analisis%20de%20los%20Fines%20de%20Semana%20o%20Festivos%2C%20sin%20muelles%20disponibles%2C%20entre%20las%2008h00%20%26%2010h00%20A.M.png)
 > En el mapa podemos localizar las 17 estaciones que en fin de semana o Festivos, tienen las estaciones llenas de bicicletas, sin muelles disponibles, en algun momento entre las 8h00 and 10h00.
 
 > 5. Análisis de los días Festivos & Fines de Semana, sin muelles disponibles, entre las 12h00 & 18h00 P.M.
 
-![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20Saturacion%20de%20bicicleta/5.%20Analisis%20de%20los%20dias%20Festivos%20%26%20Fines%20de%20Semana%2C%20sin%20muelles%20disponibles%2C%20entre%20las%2012h00%20%26%2018h00%20P.M..png)
-
-> En el mapa podemos localizar las 70 estaciones que entre los días festivos y fines de semanas entre las 12h00 & 18h00 P.M. Se encuentran llenas. Estas estaciones estan pegadas al paseo marítimo y al borde de la playa, coincidiendo con las horas donde todavia hay claridad (es de dia) para aprovechar de la playa.
+![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/5.%20Analisis%20de%20los%20dias%20Festivos%20%26%20Fines%20de%20Semana%2C%20sin%20muelles%20disponibles%2C%20entre%20las%2012h00%20%26%2018h00%20P.M..png)
+> En el mapa podemos localizar las 70 estaciones que entre los días festivos y fines de semanas entre las 12h00 & 18h00 P.M. Se encuentran llenas. Estas estaciones estan pegadas al paseo marítimo y al borde de la playa, coincidiendo con las horas donde todavía hay claridad (es de día) para aprovechar de la playa.
 
 > 6. Análisis de los días Festivos & Fines de Semana, sin muelles disponibles, entre las 19h00 & 23h00 P.M
 
-![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20Saturacion%20de%20bicicleta/6.%20Analisis%20de%20los%20dias%20Festivos%20%26%20Fines%20de%20Semana%2C%20sin%20muelles%20disponibles%2C%20entre%20las%2019h00%20%26%2023h00%20P.M.png)
-
+![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/6.%20Analisis%20de%20los%20dias%20Festivos%20%26%20Fines%20de%20Semana%2C%20sin%20muelles%20disponibles%2C%20entre%20las%2019h00%20%26%2023h00%20P.M.png)
 > En el mapa podemos localizar las 46 estaciones, entre las 19h00 y las 23h00, donde estas estaciones del centro parece estar llenas.
 
 > 7. Análisis sobre el llenado/vaciado de bicicletas, en ciertas estaciones. Los Festivos o Fin de Semana, entre 12h00 & 23h00
 
-![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20Saturacion%20de%20bicicleta/7.%20Analisis%20sobre%20el%20llenado_vaciado%20de%20bicicletas%2C%20en%20ciertas%20estaciones.%20Los%20Festivos%20o%20Fin%20de%20Semana%2C%20entre%2012h00%20%26%2023h00.png)
-
+![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/7.%20Analisis%20sobre%20el%20llenado_vaciado%20de%20bicicletas%2C%20en%20ciertas%20estaciones.%20Los%20Festivos%20o%20Fin%20de%20Semana%2C%20entre%2012h00%20%26%2023h00.png)
 > En el mapa podemos localizar las 101 estaciones que se encuentran llenas en Festivos y Fines de semana entre las 12h00 y las 23h00,
 > Mostrando lugares desde donde más gente toma bicicletas para desplazarse en el Fin de Semana.
 > La recomendación seria que en estas estaciones habría que llenar/surtir con las bicicletas obtenidas anteriormente de las estaciones llenas por el Área del Centro o el Área de la Playa.
 
 > 8. Análisis mapa con información del porcentaje de muelles disponibles de los Festivos o Fin de Semana, entre 12h00 & 23h00
 
-![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20Saturacion%20de%20bicicleta/8.%20Analisis%20mapa%20con%20informaci%C3%B3n%20del%20porcentaje%20de%20muelles%20disponibles%20de%20los%20Festivos%20o%20Fin%20de%20Semana%2C%20entre%2012h00%20%26%2023h00.png)
+![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/8.%20Analisis%20mapa%20con%20informaci%C3%B3n%20del%20porcentaje%20de%20muelles%20disponibles%20de%20los%20Festivos%20o%20Fin%20de%20Semana%2C%20entre%2012h00%20%26%2023h00.png)
 
 > 9. Análisis y generación del mapa con el tamaño de los círculos en función del Inverso del Percentage_docks_available
 
-![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20Saturacion%20de%20bicicleta/9.%20Analisis%20y%20generacion%20del%20mapa%20con%20el%20tamano%20de%20los%20circulos%20en%20funcion%20del%20Inverso%20del%20Percentage_docks_available.png)
-
+![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/9.%20Analisis%20y%20generacion%20del%20mapa%20con%20el%20tamano%20de%20los%20circulos%20en%20funcion%20del%20Inverso%20del%20Percentage_docks_available.png)
 > Este último mapa muestra las estaciones según el nivel de saturación durante el día entre 12h00 & 23h00 de días festivos y fines de semanas.
 > Las estaciones con más saturación tienen círculos más grandes, es decir, aquellas que tienen más bicicletas según capacidad y por tanto menos muelles disponibles.
 > Claramente se ven las estaciones del Área del Centro y el Área de la Playa, son las más saturadas, en comparación con el resto de estaciones.
