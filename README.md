@@ -177,7 +177,7 @@
 
 > 8. Analisis mapa con información del porcentaje de muelles disponibles de los Festivos o Fin de Semana, entre 12h00 & 23h00
 
-![Mapa]()
+![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20Saturacion%20de%20bicicleta/8.%20Analisis%20mapa%20con%20informaci%C3%B3n%20del%20porcentaje%20de%20muelles%20disponibles%20de%20los%20Festivos%20o%20Fin%20de%20Semana%2C%20entre%2012h00%20%26%2023h00.png)
 
 > 9. Analisis y generacion del mapa con el tamano de los circulos en funcion del Inverso del Percentage_docks_available
 
