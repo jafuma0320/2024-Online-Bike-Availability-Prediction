@@ -103,8 +103,83 @@
 
 
 **2. Análisis de como el COVID-19 afecto** (Evelyn)
+Tiendo en cuenta que los años dados incluyen el 2020 (año de la pandemia covid),  el objetivo del análisis es comparar la disponibilidad de bicicletas durante ese año y el resto de años 2021 – 2023.
 
+*Preparación de los datos* 
+•	Se tomo como base lo realizado en el ejercicio número 1 Predicción.  
+•	Por cada año se realizo el filtro de la siguiente información:
+  o	 status: “IN_SERVICE”
+  o	num_bikes_available: todas aquellas donde menores a 90
+•	Para el año 2023
+  o	V1: eliminar la columna para los mese Setiembre y Agosto
 
+*Principales retos/obstáculos*
+•	Se inició trabajando en Collab y a pesar de estar utilizando Dask, no se podía ejecutar el código por falta de memoria. Solución, trabajar en Jupiter notebook.
+•	Con el uso del Jupiter notebook tuvimos que descargar los archivos 7z para cada mes y año lo cual ocasiono problemas de espacio. Solución, crear una cuenta de Gmail provisional para poder almacenar los archivos 7z y csv.
+•	El dataframe del ejercicio 1 tenia definida las siguientes columnas: station_id, num_docks_available, year, month', 'day', 'hour', sin embargo, para los gráficos que se querían obtener se quería agregar las columnas num_bikes_available, status y date. Al principio, se realizó una limpieza de los datos de estas columnas (Nan, valores numéricos o que no tenían sentido). A pesar de eso al momento de realizar compute tomaba mucho tiempo y se mostraban el mensaje “Sin disponibilidad de memoria”. Por otro lado, para num_bikes_available se identifico que habían unas cuantas estaciones con 198 bicicletas disponibles mientras que para la media del resto de estaciones solo tenia alrededor de 10. Solución, en el dask dataframe se filtro los datos por status = IN_SERVICE y para num_bikes_available se estableció el filtro de estaciones que tuvieran disponibilidad de bicicletas menor a 80. Después de estos filtros, se determino que las columnas a utilizar fueran: station_id','num_bikes_available','num_docks_available', 'year','date','month', 'day', 'hour' y se pudo realizar el compute sin problema para los años 2020, 2021, 2022.
+•	Para el año 2023 aparecería el  siguiente error “Hay una columna extra V1 no definida en la metadata”. Al momento de realizar la consulta al dask dataframe ddf_2023.dtype, la columna V1 no aparecía. Solución, se buscó en los csv de cada mes del 2023 y se encontró que sólo en los meses de setiembre y agosto aparecía esta columna y mediante código se eliminaron.
+
+*Interpretación de los gráficos*
+El contenido de estos gráficos los puedes ver en la carpeta llamada : Análisis de el COVID-19 afecto
+A.	Media de bicicletas disponibles por día Antes, Durante, y Después del confinamiento el 2020'
+
+B.	Media de bicicletas disponibles por mes Antes, Durante, y Después del confinamiento – 2020
+
+*Antes del Confinamiento (Enero - Medio de Marzo):*
+Observamos una tendencia general al alza en la disponibilidad de bicicletas desde principios de año hasta el comienzo del confinamiento en marzo. Esto podría indicar un aumento en la demanda de bicicletas públicas, posiblemente a que las personas les agrada movilizarse en bicicleta.
+
+*Durante el Confinamiento (Medio de Marzo - Finales de Junio):*
+Marcado en rojo, se ve un cambio notable en la disponibilidad de bicicletas. Al inicio del confinamiento, hay un aumento súbito en la disponibilidad de bicicletas, alcanzando un pico a principios de abril. Esto sugiere que menos personas estaban utilizando las bicicletas debido a las restricciones de movilidad.
+Posteriormente, hay una ligera disminución en la disponibilidad durante el resto del confinamiento, lo que podría indicar un uso gradual de bicicletas a medida que las restricciones se fueron relajando.
+
+*Después del Confinamiento (Finales de Junio - Diciembre):*
+La disponibilidad de bicicletas muestra una tendencia a la baja, alcanzando su punto más bajo en septiembre. Esto podría reflejar un aumento en el uso de bicicletas a medida que las personas comenzaron a retomar sus actividades normales.
+A partir de octubre, la disponibilidad de bicicletas empieza a aumentar nuevamente, lo que podría indicar una menor demanda o una mayor oferta de bicicletas.
+
+El confinamiento tuvo un impacto significativo en la disponibilidad de bicicletas,
+La recuperación gradual en la disponibilidad post-confinamiento sugiere que los patrones de uso de bicicletas no volvieron inmediatamente a los niveles pre-confinamiento.
+La disponibilidad de bicicletas también parece estar influenciada por otros factores por ejemplo estacionales.
+
+C.	Disponibilidad media de bicicletas por mes y hora en 2020
+
+*Tendencias Generales por Mes:*
+Enero a Junio: La disponibilidad de bicicletas es relativamente alta, especialmente durante los meses de abril y mayo, donde se observa una media superior a 12 bicicletas disponibles en casi todas las horas del día.
+Julio a Septiembre: Hay una disminución notable en la disponibilidad media de bicicletas, alcanzando los valores más bajos en agosto y septiembre, con medias en torno a 7-8 bicicletas disponibles.
+Octubre a Diciembre: La disponibilidad media de bicicletas aumenta nuevamente, con valores similares a los observados en los primeros meses del año.
+
+*Tendencias por Hora del Día:*
+Mañanas y Noches (0:00 - 6:00, 18:00 - 23:00): Durante estas horas, la disponibilidad de bicicletas es generalmente alta en comparación con el resto del día. Esto sugiere un menor uso de bicicletas en las primeras y últimas horas del día.
+Horas Pico (7:00 - 10:00, 16:00 - 18:00): Se observa una ligera disminución en la disponibilidad de bicicletas durante estas horas, indicando un mayor uso posiblemente relacionado con los desplazamientos.
+Hay una tendencia a que las bicicletas sean más disponibles durante las primeras horas de la mañana y las últimas horas de la noche, mientras que el uso parece aumentar durante las horas laborales y de la tarde
+
+*Impacto del Confinamiento:*
+Marzo a Junio: Durante el periodo del confinamiento (especialmente abril y mayo), se nota una alta disponibilidad de bicicletas, lo que puede indicar un menor uso debido a las restricciones de movilidad.
+
+*Estacionalidad:*
+Verano (Julio y Agosto): La disponibilidad de bicicletas disminuye considerablemente, lo que podría estar relacionado con un mayor uso debido a las vacaciones de verano.
+Invierno (Diciembre): Aunque no se observa una disminución tan marcada como en verano, la disponibilidad de bicicletas es menor que en los meses de primavera y otoño.
+
+Uso durante el Confinamiento: El confinamiento llevó a una alta disponibilidad de bicicletas debido a las restricciones de movilidad.
+Variaciones Estacionales: Los meses de verano muestran una baja disponibilidad de bicicletas, indicando un uso más intensivo durante estos meses.
+Patrones Horarios: Las bicicletas son menos disponibles durante las horas pico de la mañana y la tarde, lo que sugiere su uso principal para desplazamientos diarios.
+
+D.	Disponibilidad de bicicletas por meses para los años 2020 y 2021
+
+*Comparación General entre 2020 y 2021:*
+En la mayoría de los meses, la disponibilidad de bicicletas en 2021 es inferior a la de 2020. Esto sugiere que hubo un mayor uso de bicicletas en 2021, lo cual podría estar relacionado con la relajación de las restricciones y el aumento de la movilidad.
+
+*Impacto del Confinamiento:*
+Marzo a Junio 2020: La disponibilidad de bicicletas en estos meses es notablemente alta en 2020, especialmente en abril y mayo. Esto coincide con el periodo de confinamiento, donde el uso de bicicletas se redujo debido a las restricciones.
+
+Marzo a Junio 2021: En 2021, la disponibilidad durante estos meses es menor, lo que indica un mayor uso de bicicletas en comparación con el mismo periodo en 2020. Esto sugiere que las personas empezaron a retomar sus actividades normales y utilizar más las bicicletas.
+
+5.	Disponibilidad media de bicicletas por meses para los años 2020 – 2023
+
+*Tendencia general:*
+A lo largo de los años, la disponibilidad de bicicletas sigue un patrón estacional. Hay un aumento en la disponibilidad durante los meses más cálidos y una disminución durante los meses más fríos.
+
+*Pico de disponibilidad:*
+El período entre marzo y junio muestra una mayor disponibilidad de bicicletas, con un pico en abril. Durante los meses más fríos, la disponibilidad disminuye.
 
 
 **3. Análisis de las Bicicletas eléctricas** 
