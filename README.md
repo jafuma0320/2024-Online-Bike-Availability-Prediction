@@ -6,7 +6,7 @@
 ## Facultada de Matematicas
 
 ## Posgrado en DataScience & Machine Learning
-![Logo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Imagen%20Post-grado.png)
+![Logo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20Saturacion%20de%20bicicleta/Imagen%20Post-grado.png)
 >https://datascience.ub.edu/course/postgraduate-dsml
 
 > Integrantes del proyecto:
@@ -17,7 +17,7 @@
 4. Evelyn Carmona Garcia,
 
 # Nombre del Proyecto: 2024-Bike-Availability-Prediction
-![Logo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Imagen%20Bicicletas.png)
+![Logo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20Saturacion%20de%20bicicleta/Imagen%20Bicicletas.png)
 
 # Descripcion del problema  a solucionar
 
