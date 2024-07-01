@@ -90,7 +90,7 @@
 
 > En este repositorio encontraran el cuatro (4) Collab de Google Drive, en los cuales se encuentran la siguiente informacion :
 
-* Carpeta predicion utilizando Dask (En este carpetoa se encuentra el codigo para la prediccion de docks_disponibles)
+* Carpeta predicion utilizando Dask (En este carpeta se encuentra el codigo para la prediccion de docks_disponibles)
 * Carpeta Analisis de el COVID-19 afecto
 * Carpeta Analisis de las Bicicletas a electricas
 * Carpeta Analisis de Saturacion de bicicleta
