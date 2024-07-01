@@ -135,7 +135,7 @@
 
 > 1. Grafico con los Station_id & Codigo_Postal
 
-![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/1.%20Mapa_identificando_todos_Station_id.png)
+![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20Saturacion%20de%20bicicleta/1.%20Mapa_identificando_todos_Station_id.png)
 
 > 2. Analisis del ano 2023
 
