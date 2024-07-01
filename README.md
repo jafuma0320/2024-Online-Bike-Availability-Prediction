@@ -120,8 +120,11 @@ Tiendo en cuenta que los años dados incluyen el 2020 (año de la pandemia covid
 *Principales retos/obstáculos*
 
 •	Se inició trabajando en Collab y a pesar de estar utilizando Dask, no se podía ejecutar el código por falta de memoria. Solución, trabajar en Jupiter notebook.
+
 •	Con el uso del Jupiter notebook tuvimos que descargar los archivos 7z para cada mes y año lo cual ocasiono problemas de espacio. Solución, crear una cuenta de Gmail provisional para poder almacenar los archivos 7z y csv.
+
 •	El dataframe del ejercicio 1 tenia definida las siguientes columnas: station_id, num_docks_available, year, month', 'day', 'hour', sin embargo, para los gráficos que se querían obtener se quería agregar las columnas num_bikes_available, status y date. Al principio, se realizó una limpieza de los datos de estas columnas (Nan, valores numéricos o que no tenían sentido). A pesar de eso al momento de realizar compute tomaba mucho tiempo y se mostraban el mensaje “Sin disponibilidad de memoria”. Por otro lado, para num_bikes_available se identifico que habían unas cuantas estaciones con 198 bicicletas disponibles mientras que para la media del resto de estaciones solo tenia alrededor de 10. Solución, en el dask dataframe se filtro los datos por status = IN_SERVICE y para num_bikes_available se estableció el filtro de estaciones que tuvieran disponibilidad de bicicletas menor a 80. Después de estos filtros, se determino que las columnas a utilizar fueran: station_id','num_bikes_available','num_docks_available', 'year','date','month', 'day', 'hour' y se pudo realizar el compute sin problema para los años 2020, 2021, 2022.
+
 •	Para el año 2023 aparecería el  siguiente error “Hay una columna extra V1 no definida en la metadata”. Al momento de realizar la consulta al dask dataframe ddf_2023.dtype, la columna V1 no aparecía. Solución, se buscó en los csv de cada mes del 2023 y se encontró que sólo en los meses de setiembre y agosto aparecía esta columna y mediante código se eliminaron.
 
 *Interpretación de los gráficos*
@@ -153,7 +156,7 @@ La disponibilidad de bicicletas también parece estar influenciada por otros fac
 
 C.	Disponibilidad media de bicicletas por mes y hora en 2020
 
-![Logo] (https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20el%20COVID-19%20afecto/03%20Disponibilidad%20Media%20de%20bicis%20por%20mes%20y%20horas.jpg)
+![Logo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20el%20COVID-19%20afecto/03%20Disponibilidad%20Media%20de%20bicis%20por%20mes%20y%20horas.jpg)
 
 *Tendencias Generales por Mes:*
 Enero a Junio: La disponibilidad de bicicletas es relativamente alta, especialmente durante los meses de abril y mayo, donde se observa una media superior a 12 bicicletas disponibles en casi todas las horas del día.
