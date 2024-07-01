@@ -126,8 +126,10 @@ Tiendo en cuenta que los años dados incluyen el 2020 (año de la pandemia covid
 
 *Interpretación de los gráficos*
 
-El contenido de estos gráficos los puedes ver en la carpeta llamada : Análisis de el COVID-19 afecto
+El contenido de estos gráficos los puedes ver en la carpeta llamada : Análisis de el COVID-19 afecto.
+
 A.	Media de bicicletas disponibles por día Antes, Durante, y Después del confinamiento el 2020'
+![Logo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20el%20COVID-19%20afecto/01%20Media%20de%20disponibilidad%20de%20bicis%20por%20dia.jpg)
 
 B.	Media de bicicletas disponibles por mes Antes, Durante, y Después del confinamiento – 2020
 
