@@ -1,5 +1,5 @@
 # Universidad de Barcelona
-![Logo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Imagen%20Universidad.png)
+![Logo](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20Saturacion%20de%20bicicleta/Imagen%20Universidad.png)
 
 ## Departamento de Matematicas y Informatica
 
