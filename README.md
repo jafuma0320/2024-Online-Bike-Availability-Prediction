@@ -11,7 +11,7 @@
 
 > Integrantes del proyecto:
 
-1. Inge Ruiz de Azuaibarra,
+1. Inge Ruiz de Azua Ibarra,
 2. Javier Fuentes Manrique,
 3. Beatriz Almajano,
 4. Evelyn Carmona Garcia,
