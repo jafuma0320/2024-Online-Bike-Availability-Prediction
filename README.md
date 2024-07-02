@@ -289,7 +289,8 @@ Y las representamos en el mapa para ver si se concentran en una misma zona
 
 > 5. Análisis de los días Festivos & Fines de Semana, sin muelles disponibles, entre las 12h00 & 18h00 P.M.
 
-![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/5.%20Analisis%20de%20los%20dias%20Festivos%20%26%20Fines%20de%20Semana%2C%20sin%20muelles%20disponibles%2C%20entre%20las%2012h00%20%26%2018h00%20P.M..png)
+![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20Saturacion%20de%20bicicleta/5.%20Analisis%20de%20los%20dias%20Festivos%20%26%20Fines%20de%20Semana%2C%20sin%20muelles%20disponibles%2C%20entre%20las%2012h00%20%26%2018h00%20P.M..png)
+
 > En el mapa podemos localizar las 70 estaciones que entre los días festivos y fines de semanas entre las 12h00 & 18h00 P.M. Se encuentran llenas. Estas estaciones estan pegadas al paseo marítimo y al borde de la playa, coincidiendo con las horas donde todavía hay claridad (es de día) para aprovechar de la playa.
 
 > 6. Análisis de los días Festivos & Fines de Semana, sin muelles disponibles, entre las 19h00 & 23h00 P.M
