@@ -299,6 +299,8 @@ Y las representamos en el mapa para ver si se concentran en una misma zona
 
 > En el mapa podemos localizar las 46 estaciones, entre las 19h00 y las 23h00, donde estas estaciones del centro parece estar llenas.
 
+> Todos estos datos me sirven para verificar/identificar estaciones que se colapsan y habría que ampliar de tamaño o llenar/vaciar de bicicletas con más frecuencia en ciertos tramos horarios.
+
 > 7. Análisis sobre el llenado/vaciado de bicicletas, en ciertas estaciones. Los Festivos o Fin de Semana, entre 12h00 & 23h00
 
 ![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20Saturacion%20de%20bicicleta/7.%20Analisis%20sobre%20el%20llenado_vaciado%20de%20bicicletas%2C%20en%20ciertas%20estaciones.%20Los%20Festivos%20o%20Fin%20de%20Semana%2C%20entre%2012h00%20%26%2023h00.png)
