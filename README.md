@@ -277,7 +277,7 @@ Y las representamos en el mapa para ver si se concentran en una misma zona
 
 > 3. Análisis de los días entre Semana (Lunes a viernes) y NO Festivos, sin muelles disponibles, entre 08h00 & 10h00.
 
-![Mapa]()
+![Mapa](https://github.com/jafuma0320/2024-Online-Bike-Availability-Prediction/blob/main/Analisis%20de%20Saturacion%20de%20bicicleta/3.%20Analisis%20de%20los%20dias%20entre%20Semana(Lunes%20a%20viernes)%20y%20NO%20Festivos%2C%20sin%20muelles%20disponibles%2C%20entre%2008h00%20%26%2010h00.png)
 
 > En el mapa podemos localizar las 45 estaciones que se encuentran llenas a primera hora de la mañana en días laborables 08h00 & 10h00, seguramente coincidiendo con puntos de gran afluencia de empresas.
 
