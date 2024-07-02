@@ -308,6 +308,7 @@ Y las representamos en el mapa para ver si se concentran en una misma zona
 > En el mapa podemos localizar las 101 estaciones que se encuentran llenas en Festivos y Fines de semana entre las 12h00 y las 23h00,
 > Mostrando lugares desde donde más gente toma bicicletas para desplazarse en el Fin de Semana.
 > La recomendación seria que en estas estaciones habría que llenar/surtir con las bicicletas obtenidas anteriormente de las estaciones llenas por el Área del Centro o el Área de la Playa.
+> En otras palabras, podriamos hablar de ampliar la estacion y llenar/surtir con mas bicicletas, ya que los usuarios tomaran o utilizaran mas bicicletas para su retorno o regresos a sus lugares de origen (ejemplo: casa/apartamento)
 
 > 8. Análisis mapa con información del porcentaje de muelles disponibles de los Festivos o Fin de Semana, entre 12h00 & 23h00
 
